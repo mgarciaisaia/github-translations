@@ -1,6 +1,13 @@
 # Armando tu proyecto en GitHub
 #### (Lectura de 5 minutos)
 
+- [Introducción](#)
+- [GitHub Desktop](#github-desktop)
+- [Iniciá tu proyecto](#iniciar-tu-proyecto-en-github-desktop)
+- [Pusheá tu código](#pushear-tu-c%C3%B3digo-a-githubcom)
+- [Pulleando código](#obteniendo-c%C3%B3digo-de-githubcom)
+- [¡Celebrá!](#celebr%C3%A1)
+
 El software está en el corazón de GitHub, y el código es el ADN del software. Si te estás registrando, es muy probable que tengas algo de código que quieras pushear a GitHub. ¡Y esa es una idea fantástica!
 
 Estas son algunas buenas razones para pushear proyectos a GitHub:
@@ -30,7 +37,7 @@ GitHub Desktop es la manera más fácil de subir código a GitHub.com. No vas a 
 
 Podés descargar GitHub Desktop para [**Mac**](http://mac.github.com/) y [**Windows**](http://windows.github.com/). Una vez que instalás GitHub Desktop, un pequeño wizard inicial te guiará a través de algunas configuraciones básicas, y te ayudará a conectar GitHub Desktop con tu cuenta de GitHub.com.
 
-### Iniciar tu proyecto en GitHub Desktop
+## Iniciar tu proyecto en GitHub Desktop
 
 La manera más simple de incluir tu proyecto en GitHub Desktop es arrastrando la carpeta con tu código a la pantalla principal de la aplicación.
 
