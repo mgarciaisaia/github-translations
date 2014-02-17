@@ -2,7 +2,7 @@
 
 Para crear un duplicado de un repositorio sin forkearlo, necesitás correr un comando `clone` especial contra el repositorio original, y hacer un push-copia a uno nuevo. Esto funciona con cualquier repositorio git, no sólo los hosteados en GitHub.
 
-En los próximos ejemplos, el repositorio al que intentás pushear (como ser `usuario/nuevo-repositorio` o `usuario/duplicado`) deberían estar ya creados en GitHub. Visita la guía [Creando un nuevo repositorio](https://help.github.com/articles/creating-a-new-repository) para más información.
+En los próximos ejemplos, el repositorio al que intentás pushear (como ser `usuario/nuevo-repositorio` o `usuario/duplicado`) deberían estar ya creados en GitHub. Visita la guía [Creando un nuevo repositorio](creating-a-new-repository.md) para más información.
 
 
 ## ¡Hagámoslo!
