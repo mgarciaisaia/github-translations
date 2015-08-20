@@ -34,7 +34,7 @@ Un **repositorio** es la unidad básica de GitHub, más comunmente un único pro
 3. Escribí una descripción corta.
 4. Elegí **Initialize this repository with a README** (_inicializar este repositorio con un README_).
 
-![new-repo-form](https://guides.github.com/activities/hello-world/create-new-repo.png)
+![new-repo-form](create-new-repo.png)
 
 Clickeá **Create repository** (_crear repositorio_). ¡Boom, repositorio! :boom:
 
@@ -50,7 +50,7 @@ Ya tenés un repositorio ahora, pero está bastante vacío. Podría incluir un R
 2. Clickeá **New issue** (_Nuevo issue_).
 3. Dale un título y descripción a tu issue.
 
-![issue](https://guides.github.com/activities/hello-world/issue.png)
+![issue](issue.png)
 
 Clickeá **Submit new Issue** (_enviar nuevo issue_) cuando hayas terminado. Ahora ese issue tiene una ubicación permanente (una URL) que podés referenciar incluso después de cerrado.
 
@@ -64,7 +64,7 @@ Cuando creás un repositorio, por defecto tiene un branch llamado `master`. Pod�
 
 Cuando creás un branch, estás haciendo una copia del branch original como estaba en ese momento en la historia (como una foto instantánea). Si el branch original cambia cuando estás trabajando en tu nuevo branch, no hay drama, siempre podés traerte esas actualizaciones.
 
-![Una branch](https://guides.github.com/activities/hello-world/branching.png)
+![Una branch](branching.png)
 
 Podés tener, en algún momento de tu vida, distintas versiones guardadas de un archivo, como "historia.txt", "historia-jose-editada.txt", "historia-susana-editada.txt". Los branchs logran los mismos objetivos, pero son más simples de manejar en los repositorios de GitHub.
 
@@ -77,7 +77,7 @@ En GitHub, nuestros desarrolladores, escritores y diseñadores usan branchs para
 3. Tipeá el nombre del branch, `readme-edits`, en la caja de texto de nuevo branch.
 4. Seleccioná la opción azul **Create branch** (_crear branch_) o apretá "Enter" en tu teclado.
 
-![branch gif](https://guides.github.com/activities/hello-world/readme-edits.gif)
+![branch gif](readme-edits.gif)
 
 Ahora tenés dos branchs, `master` y `readme-edits`. Se ven exactamente igual, pero ¡no por mucho! Ahora vamos a agregar nuestros cambios en el nuevo branch.
 
@@ -96,8 +96,8 @@ Aún deberías estar en la vista de código de tu branch `readme-edits`, ¡hagam
 3. En el editor, escribí algún texto, contá algo de vos.
 4. Escribí un mensaje de commit que describa tus cambios.
 
-![commit](https://guides.github.com/activities/hello-world/edit-top.png)
-![commit](https://guides.github.com/activities/hello-world/edit-bottom.png)
+![commit](edit-top.png)
+![commit](edit-bottom.png)
 
 Clickeá **Commit changes** (_commitear cambios_). Ahora esos cambios se aplicaron sobre tu archivo README en tu branch `readme-edits` y ese branch tiene contenido y commits distinto al de `master` (¡tal como debería!).
 
@@ -117,11 +117,11 @@ _Clickeá en la imagen para verla más grande_
 
 | **Paso** | **Gráfico** |
 |----------|-------------|
-| Clickeá el ícono de Pull Request en la barra lateral, después en la página de Pull Requests clickeá el botón verde de **Create pull request** (_Crear pull request_). | [![create pr](https://cloud.githubusercontent.com/assets/1305617/2543808/73059f0a-b5f7-11e3-928e-745e9f9a5c75.gif)](https://cloud.githubusercontent.com/assets/1305617/2543808/73059f0a-b5f7-11e3-928e-745e9f9a5c75.gif) |
-| Seleccioná el branch que creaste, `readme-edits`, para compararlo con `master` (el original)| [![branch](https://guides.github.com/activities/hello-world/pick-branch.png)](https://guides.github.com/activities/hello-world/pick-branch.png) |
-| Revisá tus cambios en los diffs en la página Compare (_compará_), y asegurate de que es lo que querés enviar. | ![diff](https://guides.github.com/activities/hello-world/diff.png) |
-| Cuando estés seguro de que son los cambios que querés enviar, clickeá el gran botón verde de **Create Pull Request** (_crear pull request_). | [![create-pull](https://guides.github.com/activities/hello-world/create-pr.png)](https://guides.github.com/activities/hello-world/create-pr.png) |
-| Dale un título a tu pull request y, dado que se relaciona directamente con un issue abierto, incluí "Fixes #" (_"corrije"_) y el número de issue en el título. Escribí una breve descripción de tus cambios. _Es importante que el mensaje esté en inglés para que GitHub lo reconozca._ | [![pr-form](https://guides.github.com/activities/hello-world/pr-form.png)](https://guides.github.com/activities/hello-world/pr-form.png) |
+| Clickeá el ícono de Pull Request en la barra lateral, después en la página de Pull Requests clickeá el botón verde de **Create pull request** (_Crear pull request_). | [![create pr](73059f0a-b5f7-11e3-928e-745e9f9a5c75.gif)](73059f0a-b5f7-11e3-928e-745e9f9a5c75.gif) |
+| Seleccioná el branch que creaste, `readme-edits`, para compararlo con `master` (el original)| [![branch](pick-branch.png)](pick-branch.png) |
+| Revisá tus cambios en los diffs en la página Compare (_compará_), y asegurate de que es lo que querés enviar. | [![diff](diff.png)](diff.png) |
+| Cuando estés seguro de que son los cambios que querés enviar, clickeá el gran botón verde de **Create Pull Request** (_crear pull request_). | [![create-pull](create-pr.png)](create-pr.png) |
+| Dale un título a tu pull request y, dado que se relaciona directamente con un issue abierto, incluí "Fixes #" (_"corrije"_) y el número de issue en el título. Escribí una breve descripción de tus cambios. _Es importante que el mensaje esté en inglés para que GitHub lo reconozca._ | [![pr-form](pr-form.png)](pr-form.png) |
 
 Cuando hayas terminado con tu mensaje, ¡clickeá **Send Pull Request** (_enviar pull request_)!
 
@@ -135,8 +135,8 @@ Es hora de unificar tus cambios - _integrar_ tu branch `readme-edits` al branch 
 2. Clickeá **Confirm merge** (_Confirmar merge_).
 3. Animate y eliminá este branch, dado que sus cambios ya fueron integrados, con el botón de **Delete branch** (_eliminar branch_) en la caja violeta.
 
-![merge](https://guides.github.com/activities/hello-world/merge-button.png)
-![delete](https://guides.github.com/activities/hello-world/delete-button.png)
+![merge](merge-button.png)
+![delete](delete-button.png)
 
 Si volvés a ver el issue que habías abierto, ¡ahora está cerrado! Como incluiste "fixes \#1" en el título de tu pull request, ¡GitHub se encargó de cerrar ese issue cuando se mergeó el pull request!
 

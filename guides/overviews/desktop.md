@@ -18,7 +18,7 @@ Estas son algunas buenas razones para pushear proyectos a GitHub:
 
 - **Colaboración** - Una vez que tu código está en GitHub, podés invitar a otros a trabajar en tu código con vos. Con enviarles un enlace te van a poder ayudar a debuggear un problema.
 
-![Vista del repositorio mbostock/d3](http://guides.github.com/overviews/desktop/repository.png)
+![Vista del repositorio mbostock/d3](repository.png)
 
 Una vez que tu proyecto está en GitHub, te damos una URL para cada archivo de tu proyecto. Por ejemplo, este es el popular proyecto [d3](https://github.com/mbostock/d3) de Mike Bostock para crear documentos orientados a datos con Javascript.
 
@@ -43,19 +43,19 @@ La manera más simple de incluir tu proyecto en GitHub Desktop es arrastrando la
 
 _Nota: los ejemplos muestran la aplicación para Mac, pero el flujo es el mismo para la aplicación de Windows._
 
-![Arrastrando una carpeta a la aplicación para Mac](http://guides.github.com/overviews/desktop/mac-dragndrop.jpg)
+![Arrastrando una carpeta a la aplicación para Mac](mac-dragndrop.jpg)
 
 Si usás un repostiorio Git existente, podés saltearte hasta la sección de pushear tu código a GitHub.com.
 
 Si la carpeta no es un repositorio Git, GitHub Desktop te va a ofrecer convertirla en un repositorio. Convertir tu proyecto en un repositorio Git no va a eliminar ni arruinar los archivos que ahí estén - simplemente va a crear algunos archivos ocultos que permiten a Git hacer su magia.
 
-![Inicializando un repositorio en la aplicación para Mac](http://guides.github.com/overviews/desktop/mac-gitinit.jpg)
+![Inicializando un repositorio en la aplicación para Mac](mac-gitinit.jpg)
 
 ### Tu primer commit
 
 Los repositorios Git se basan en _commits_ - versiones de tu código en un punto determinado en el tiempo. Necesitás hacer al menos un commit para poder pushear tu código a GitHub.com.
 
-![Commiteando en la aplicación para Mac](http://guides.github.com/overviews/desktop/mac-commit.jpg)
+![Commiteando en la aplicación para Mac](mac-commit.jpg)
 
 Navegá a la pestaña **Changes** ("Cambios") y clickeá **Commit** para crear tu primer commit. Tenés que crear un nuevo commit cada vez que cambiás tus archivos. Crear un commit es como grabar un archivo - le estás diciendo a Git que querés que recuerde ese momento en la historia.
 
@@ -63,7 +63,7 @@ Creá tantos commits como quieras localmente. Nadie más que vos va a poder verl
 
 ## Pushear tu código a GitHub.com
 
-![Pusheando en la aplicación para Mac](http://guides.github.com/overviews/desktop/mac-push.jpg)
+![Pusheando en la aplicación para Mac](mac-push.jpg)
 
 Clickeá el botón "Push to GitHub" ("Pushear a GitHub") que está en la esquina superior derecha y GitHub Desktop te va a preguntar qué tipo de repositorio crear:
 

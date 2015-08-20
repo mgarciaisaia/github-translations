@@ -11,15 +11,15 @@
 
 Los issues (_incidencias_) son una excelente manera de administrar tareas, mejoras o errores en tus proyectos. Son un poco como un e-mail, pero que podés compartir y discutir con el resto de tu equipo. La mayoría de los proyectos de software tienen algún tipo de bug tracker (_administrador de bugs_). El de GitHub se llama **Issues**, y tiene su propia sección en cada repositorio.
 
-![Botón de Issues en un repositorio de GitHub](https://guides.github.com/features/issues/navigation-highlight.png)
+![Botón de Issues en un repositorio de GitHub](navigation-highlight.png)
 
 Por ejemplo, miremos [la sección de Issues del repositorio de Bootstrap](https://github.com/twbs/bootstrap/issues):
 
-![Sección de Issues del repositorio de Bootstrap](https://guides.github.com/features/issues/listing-screen.png)
+![Sección de Issues del repositorio de Bootstrap](listing-screen.png)
 
 El issue tracker de GitHub es especial por estar enfocado en la colaboración, las referencias y el excelente formateo de texto. Un issue común en GitHub se ve algo así:
 
-![Un issue en GitHub](https://guides.github.com/features/issues/example-issue.png)
+![Un issue en GitHub](example-issue.png)
 
 - El **título** y la **descripción** cuentan de qué trata el issue.
 - Las **etiquetas** de colores ayudan a categorizar y filtrar los issues (tal como las etiquetas en los e-mails).
@@ -32,13 +32,13 @@ Al acumular varios issues, se complica encontrar los que te interesan. Los **mil
 
 Podés cambiar o agregar los milestones, assignees o labels clickeando en sus respectivos íconos de engranaje en la barra lateral de la derecha.
 
-![Milestones, labels y assignees](https://guides.github.com/features/issues/labels.png)
+![Milestones, labels y assignees](labels.png)
 
 Si no ves los botones de engranajes significa que no tenés permisos para editar el issue. Podés pedirle al owner (_dueño_) del repositorio que te agregue como colaborador para obtener acceso.
 
 ### Milestones
 
-![Milestones](https://guides.github.com/features/issues/milestones.png)
+![Milestones](milestones.png)
 
 Los milestones son grupos de issues que corresponden al mismo proyecto, tarea o período de tiempo. Se los suele usar de maneras muy diversas en los proyectos de software. Algunos ejemplos de milestones en GitHub incluyen:
 
@@ -50,7 +50,7 @@ Los milestones son grupos de issues que corresponden al mismo proyecto, tarea o 
 
 Las labels son geniales para organizar distintos tipos de issues. Cada issue puede tener tantas labels como gustes, y podés filtrarlos por una o más labels al mismo tiempo.
 
-![Labels](https://guides.github.com/features/issues/labels-listing.png)
+![Labels](labels-listing.png)
 
 ### Assignees
 
@@ -60,7 +60,7 @@ Cada issue puede tener un assignee - la persona responsable de avanzar con ese i
 
 Usando @mentions (_"at mentions"_, _menciones_) y referencias en tus issues, podés notificar a otros usuarios y equipos de GitHub, y conectar los issues entre sí. Proveen una forma flexible de involucrar efectivaemnte a la gente correcta para resolver los issues, y son fáciles de aprender y usar. Funcionan en todos los campos de texto en GitHub - son parte de la sintaxis de formateo de texto llamado [GitHub Flavored Markdown](https://help.github.com/articles/writing-on-github#name-and-team-mentions-autocomplete).
 
-![Escribiendo GitHub Flavored Markdown en un Issue](https://guides.github.com/features/issues/markdown-example.png)
+![Escribiendo GitHub Flavored Markdown en un Issue](markdown-example.png)
 
 Si querés aprender más, podés leer [Mastering Markdown](http://guides.github.com/features/mastering-markdown/).
 
@@ -70,13 +70,13 @@ Las [notificaciones](https://github.com/notifications) son la forma de mantenert
 
 Hay dos formas de recibir notificaciones: por e-mail, y por la web. Podés configurar cómo recibir tus notificaciones [en tus preferencias](https://github.com/settings/notifications). Si esperás recibir muchas notificaciones, te recomendamos recibir notificaciones en la web + e-mail para **Participating** (issues en que participás), y sólo web para **Watching** (issues que estás siguiendo).
 
-![Configurando notificaciones](https://guides.github.com/features/issues/notifications.png)
+![Configurando notificaciones](notifications.png)
 
 Con estas preferencias, recibís e-mails cuando la gente te menciona directamente, y podés entrar en la web para ponerte al día con los repositorios que te interesan.
 
 Podés acceder a tus notificaciones a través de la [página de notificaciones](https://github.com/notifications). Esta página está pensada para ojear varias notifiaciones a la vez y marcarlas como leídas o silenciarlas. Probá de usar los atajos de teclado para acelerar tu trabajo acá - apretá `?` estando en la página para ver qué atajos tenés disponibles.
 
-![Notificaciones](https://guides.github.com/features/issues/notification.png)
+![Notificaciones](notification.png)
 
 Los threads silenciados (_muted_) no van a volver a aparecerte mientras nadie te @mencione directamente. Es una buena estrategia para los threads en los que no estás muy interesado (quizá un sub-sistema del proyecto en el que no tenés mucho que ver). Si marcás un issue como leído, se va a mantener así hasta que alguien comente nuevamente en él.
 
@@ -106,13 +106,13 @@ A menudo los issues dependen de otros issues, o al menos se relacionan de algún
 
 Cuando hagas esto, se va a crear un evento en el issue #42 que se ve algo así:
 
-![Referencias en issues](https://guides.github.com/features/issues/reference.png)
+![Referencias en issues](reference.png)
 
 ¿Y para issues de otros repositorios? Simplemente incluí antes el nombre del repo, como en `kneath/example-project#42`.
 
 Uno de los usos más interesantes de GitHub Issues es poder referenciar issues directamente desde los commits. Incluí el número de issue dentro del mensaje de un commit.
 
-![Referenciando issues desde un commit](https://guides.github.com/features/issues/commit.png)
+![Referenciando issues desde un commit](commit.png)
 
 Prefijando tus commits con "Fixes", "Fixed" o "Fix" (_"arregla"_), "Closes", "Closed" o "Close" (_"cierra"_) vas a cerrar automáticamente el issue al mergear ese commit a master.
 
@@ -122,7 +122,7 @@ Las referencias permiten conectar el trabajo hecho con el bug que está tratando
 
 En la parte superior de cada página hay una caja de búsqueda que te permite buscar en los issues.
 
-![Buscando Issues](https://guides.github.com/features/issues/search.png)
+![Buscando Issues](search.png)
 
 Podés acotar las búsquedas por:
 
@@ -150,7 +150,7 @@ Si usás organizaciones, cada una tiene su propio dashboard que sólo muestra lo
 
 Abajo de todo, cada repositorio tiene una sección llamada **Pulse** (_pulso_) - un resumen de todo lo que pasó en ese repositorio la última semana (o el último día, o los últimos 3 meses, etc).
 
-![Pulse](https://guides.github.com/features/issues/pulse.png)
+![Pulse](pulse.png)
 
 Es bastante útil para ponerte al día con repositorios que tuviste abandonados durante algún tiempo y que no querés la granularidad de leer cada notificación.
 
