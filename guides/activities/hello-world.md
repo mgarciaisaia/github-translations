@@ -83,7 +83,7 @@ Ahora tenés dos branchs, `master` y `readme-edits`. Se ven exactamente igual, p
 
 ## Hacer un _commit_
 
-En GitHub, los cambios guardados se llaman **commits*. Los commits son bastante gloriosos, porque un conjunto de ellos representan la historia de tu proyecto.
+En GitHub, los cambios guardados se llaman **commits**. Los commits son bastante gloriosos, porque un conjunto de ellos representan la historia de tu proyecto.
 
 Cada commit tiene un **mensaje de commit** asociado, que es una descripción explicando por qué se hizo un cambio en particular. Gracias a esos mensajes, vos y otros pueden leer la historia de commits y entender qué cosas hiciste y por qué.
 
@@ -92,18 +92,17 @@ Aún deberías estar en la vista de código de tu branch `readme-edits`, ¡hagam
 ### Para commitear cambios
 
 1. Clickeá el archivo README.
-2. Clickeá *Edit* (_editar_).
+2. Clickeá el ícono del lápiz en la esquina superior derecha de ese archivo para editarlo.
 3. En el editor, escribí algún texto, contá algo de vos.
 4. Escribí un mensaje de commit que describa tus cambios.
 
-![commit](edit-top.png)
-![commit](edit-bottom.png)
+![commit](commit.png)
 
 Clickeá **Commit changes** (_commitear cambios_). Ahora esos cambios se aplicaron sobre tu archivo README en tu branch `readme-edits` y ese branch tiene contenido y commits distinto al de `master` (¡tal como debería!).
 
 ## Abrir un Pull Request
 
-Los Pull Requests son el corazón de la colaboración en GitHub. Cuando hacés un **pull request** estás proponiendo tus cambios y pidiéndole a alguien que incluya tu contribución - es decir, mergearlos en su branch. Los Pull Requests de GitHub te permiten comparar el contenido de dos branchs. Los cambios, adiciones y substracciones, se muestran en verde y rojo, y son llamados **diffs* (_diferencias_).
+Los Pull Requests son el corazón de la colaboración en GitHub. Cuando hacés un **pull request** estás proponiendo tus cambios y pidiéndole a alguien que incluya tu contribución - es decir, mergearlos en su branch. Los Pull Requests de GitHub te permiten comparar el contenido de dos branchs. Los cambios, adiciones y substracciones, se muestran en verde y rojo, y son llamados **diffs** (_diferencias_).
 
 Ni bien empieces a hacer un cambio, podés abrir un pull request. La gente usa los pull requests para discutir sobre los commits (revisión de código) incluso antes de que el código esté finalizado. De este modo podés obtener feedback mientras estás desarrollando, o ayuda cuando te trabás en algo.
 
